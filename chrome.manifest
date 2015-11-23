@@ -1,0 +1,2 @@
+content	amo-validator-bypass chrome/content/
+overlay	chrome://browser/content/browser.xul chrome://amo-validator-bypass/content/overlay.xul

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<overlay id="amo-validator-bypass-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script src="overlay.js"/>
+</overlay>
