@@ -48,8 +48,8 @@ An alert will appear showing the path to the Firefox profile directory. This ale
 
 ## Validating
 
-Via command line
-:
+Via the [command line](https://github.com/mozilla/amo-validator):
+
 ```
 % ./build.sh
 % amo-validator --selfhosted -v ../bypass.xpi
@@ -66,7 +66,7 @@ The add-on doesn't have any locale entries in its chrome.manifest file, which su
 	File:	chrome.manifest
 ```
 
-Via [online validator](https://addons.mozilla.org/en-US/developers/addon/validate):
+Via the [online validator](https://addons.mozilla.org/en-US/developers/addon/validate):
 
 ```
 Your submission passed validation and will be automatically signed.
