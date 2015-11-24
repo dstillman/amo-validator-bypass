@@ -2,7 +2,7 @@
 
 This is a trivial Firefox extension that performs three potentially malicious tasks but is nevertheless automatically signed by the addons.mozilla.org validator.
 
-See [my blog post](http://danstillman.com/2015/11/23/firefox-extension-scanning-is-security-theater) for context.
+For context, see [Automated Scanning of Firefox Extensions is Security Theater](http://danstillman.com/2015/11/23/firefox-extension-scanning-is-security-theater).
 
 ## Installation
 
