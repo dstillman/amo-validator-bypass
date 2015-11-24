@@ -2,7 +2,7 @@
 
 This is a trivial Firefox extension that performs three potentially malicious tasks but is nevertheless automatically signed by the addons.mozilla.org validator.
 
-See post on [firefox-dev](https://mail.mozilla.org/pipermail/firefox-dev/2015-November/thread.html) for context.
+See [my blog post](http://danstillman.com/2015/11/23/firefox-extension-scanning-is-security-theater) for context.
 
 ## Installation
 
