@@ -1,6 +1,6 @@
 # AMO Validator Bypass Proof of Concept
 
-This is a trivial Firefox extension that performs three potentially malicious tasks but is nevertheless automatically signed by the addons.mozilla.org validator.
+This is a trivial Firefox extension that performs three potentially malicious tasks but would nevertheless be automatically signed by the addons.mozilla.org validator.
 
 For context, see [Automated Scanning of Firefox Extensions is Security Theater](http://danstillman.com/2015/11/23/firefox-extension-scanning-is-security-theater).
 
