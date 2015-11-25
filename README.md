@@ -8,7 +8,7 @@ For context, see [Automated Scanning of Firefox Extensions is Security Theater](
 
 1. `git clone https://github.com/dstillman/amo-validator-bypass.git`
 2. Running a dev build? Don't forget to set `xpinstall.signatures.required` to false! Fortunately that wouldn't be necessary once this was automatically signed…
-3. Create a text file named `amo-validator-bypass@example.com` in your Firefox profile's `extensions` directory containing the path to the cloned repo.
+3. Create a text file named `amo-validator-bypass@example.net` in your Firefox profile's `extensions` directory containing the path to the cloned repo.
 4. Start Firefox.
 
 ## Running
