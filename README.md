@@ -48,7 +48,7 @@ An alert will appear showing the path to the Firefox profile directory. This ale
 
 ## Validating
 
-Via the [command line](https://github.com/mozilla/amo-validator):
+Via the amo-validator [command line](https://github.com/mozilla/amo-validator):
 
 ```
 % ./build.sh
@@ -64,6 +64,19 @@ Notice:	Add-on appears not to be localized
 The add-on doesn't have any locale entries in its chrome.manifest file, which suggests that it may not be localized.
 	Tier:	4
 	File:	chrome.manifest
+```
+
+Via addons-validator [command line](https://github.com/mozilla/addons-validator)
+
+```
+% ./build.sh
+% addons-validator  ../bypass.xpi
+
+Validation Summary:
+
+errors          0
+notices         0
+warnings        0
 ```
 
 Via the [online validator](https://addons.mozilla.org/en-US/developers/addon/validate):
