@@ -2,7 +2,7 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
-    <em:id>amo-validator-bypass@example.com</em:id>
+    <em:id>amo-validator-bypass@example.net</em:id>
     <em:name>AMO Validator Bypass</em:name>
     <em:updateURL>https://example.com/update.rdf</em:updateURL>
     <em:version>1.0</em:version>
