@@ -2,7 +2,11 @@
 
 This is a trivial Firefox extension that performs three potentially malicious tasks but would nevertheless be automatically signed by the addons.mozilla.org validator.
 
-For context, see [Automated Scanning of Firefox Extensions is Security Theater](http://danstillman.com/2015/11/23/firefox-extension-scanning-is-security-theater).
+The validator cannot be improved to catch these behaviors. As a Mozilla engineer [says](https://bugzilla.mozilla.org/show_bug.cgi?id=1227867#c2):
+
+> There is simply no way to detect malicious code like this in a dynamic language like JS through static analysis of the source code.
+
+For full context, see [Automated Scanning of Firefox Extensions is Security Theater](http://danstillman.com/2015/11/23/firefox-extension-scanning-is-security-theater).
 
 ## Installation
 
@@ -48,7 +52,7 @@ An alert will appear showing the path to the Firefox profile directory. This ale
 
 ## Validating
 
-Via the amo-validator [command line](https://github.com/mozilla/amo-validator):
+Via [amo-validator](https://github.com/mozilla/amo-validator):
 
 ```
 % ./build.sh
@@ -66,11 +70,11 @@ The add-on doesn't have any locale entries in its chrome.manifest file, which su
 	File:	chrome.manifest
 ```
 
-Via addons-validator [command line](https://github.com/mozilla/addons-validator)
+Via [addons-validator](https://github.com/mozilla/addons-validator)
 
 ```
 % ./build.sh
-% addons-validator  ../bypass.xpi
+% addons-validator ../bypass.xpi
 
 Validation Summary:
 
